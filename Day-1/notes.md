@@ -21,3 +21,28 @@ let fullName="puneeth R";
 
 const : Variable cannot be redeclared or updated. A block scope variable. {used more}
 * { code } - is a block
+
+//06-11-2026
+Data type
+'typeof variable' - used for finding type of data type a variable holds
+
+* number
+* boolean
+* string
+* undefined
+* null
+* bigint
+* symbol
+
+generally objects are defined by const 
+
+const student = {
+    nname: "puneeth R",
+    age: 26,
+    cgpa: 8.2,
+}//collection of different items
+
+//console.log(student.age); - to access the value
+/*student['age']=student['age']+1 - for updating the object*/
+
+note: variable defined by 'let' can be updated, but 'const' cannot be updated except if its a key value under an object.
