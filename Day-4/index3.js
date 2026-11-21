@@ -7,7 +7,7 @@ let guess;
 gameOn = true;
 while (gameOn) {
     guess = prompt("guess the number:");
-    if (guess == randomNumber || guess === "break") {
+    if (guess == randomNumber) {
         gameOn = false;
     }
     if (guess === "break") {
